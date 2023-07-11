@@ -161,3 +161,56 @@ small {
 
     color: #E55473;
 }
+
+/* bonus points section  */
+.feature-box-all {
+    display: flex;
+    padding: 0 300px;
+    justify-content: space-between;
+
+}
+
+.feature-box-unit {
+    padding-top: 30px;
+}
+
+.feature-box-1 {
+    width: 400px;
+    height: 450px;
+    background-image: url("Flower Asset/pngwing 6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50% 50% 0px 0px;
+    background-color: rgba(255, 192, 203, 0.519);
+    background-position: center bottom;
+}
+
+.feature-box-2 {
+    width: 400px;
+    height: 450px;
+    background-image: url("Flower Asset/pngwing 5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50% 50% 0px 0px;
+    background-color: rgba(212, 228, 213, 0.519);
+    background-position: center bottom;
+}
+
+.feature-box-3 {
+    width: 400px;
+    height: 450px;
+    background-image: url("Flower Asset/pngwing 7.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 50% 50% 0px 0px;
+    background-color: rgba(233, 233, 245, 0.9);
+    background-position: center bottom;
+}
+
+.feature-info {
+    text-decoration: underline;
+    color: #272727;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
