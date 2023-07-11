@@ -108,7 +108,10 @@ h3 {
 
 #latest-deal-style {
     background-image: url("Flower Asset/Rectangle 9.png");
+    background-size: cover;
     padding: 120px 150px;
+    border-radius: 5px;
+
 }
 
 form {
@@ -135,4 +138,26 @@ input[type="submit"] {
     padding: 15px 40px;
     margin-left: 10px;
     max-width: 30%;
+}
+
+/* footer section style  */
+footer {
+    margin: 100px 0 0 0;
+    padding: 120px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer>p {
+    color: white;
+}
+
+small {
+    color: rgba(255, 255, 255, 0.40);
+}
+
+.footer-span {
+
+    color: #E55473;
 }
