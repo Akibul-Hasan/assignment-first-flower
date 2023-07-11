@@ -165,8 +165,8 @@ small {
 /* bonus points section  */
 .feature-box-all {
     display: flex;
-    padding: 0 300px;
-    justify-content: space-between;
+    padding: 0 50px;
+    justify-content: space-around;
 
 }
 
@@ -213,4 +213,42 @@ small {
     font-size: 16px;
     font-weight: bold;
     margin-top: 20px;
+}
+
+
+/* history of flower section  */
+.history-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    background-color: rgba(229, 223, 216, 0.216);
+}
+
+.history-img {
+    width: 700px;
+    border-radius: 8px;
+}
+
+.history-info {
+    max-width: 50%;
+    font-size: 20px;
+    align-items: center;
+    padding: 30px 50px;
+    text-align: justify;
+}
+
+hr {
+    color: #d1c3c314;
+}
+
+.btn-history {
+    margin: 60px 40%;
+    /* margin: 0 auto; */
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 700;
+    background: #879fbb;
+    border: 0;
+    padding: 15px 50px;
 }
